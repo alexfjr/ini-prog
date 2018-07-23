@@ -51,7 +51,7 @@ main p {
    margin-bottom: 1.25rem;
 } 
 .rodape-pagina {
-   background-color: #000;
+   background-color: rgba(0, 0, 0, .8);
    color: #F2FFFC;
    padding: 1rem;
    clear: both;
