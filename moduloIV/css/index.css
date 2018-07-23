@@ -234,7 +234,3 @@ main {
    padding-bottom: 0;
    float: none;
 }
-
-.titulo-principal h1 {
-   transform: skew(30deg);
-}
