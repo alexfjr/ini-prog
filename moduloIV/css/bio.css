@@ -26,3 +26,21 @@
    float: left;
    margin-left: 0;
 }
+.container > p::first-letter {
+   font-size: 200%;
+   font-weight: bold;
+   text-shadow: 1px 1px black;
+   color: #3C1D3D;
+   line-height: 1;
+   margin-right: .2ch;
+}
+.citacao-bio::before {
+   content: '“';
+   font-size: 1000%;
+   color: #BBBBBB;
+   position: absolute;
+   line-height: .8;
+}
+.citacao-bio > p {
+   position: relative;
+}
