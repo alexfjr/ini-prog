@@ -28,7 +28,7 @@ h1 {
    clear: both;
 } 
 main {
-   width: 80%;
+   width: calc(100% - .9 * 300px);
    float: left;
    padding-bottom: 4rem;
 } 
@@ -121,7 +121,7 @@ em {
    box-sizing: border-box;
 } 
 .navegacao-site {
-   width: 20%;
+   width: calc(.9 * 300px);
    float: right;
    position: relative;
    top: 300px;
