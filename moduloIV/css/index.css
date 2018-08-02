@@ -126,7 +126,7 @@ body {
    position: absolute;
    top: 0;
    right: 0;
-   transform: translate(6.5753787975em, -2.47487373417em) rotate(45deg);
+   transform: translate(calc(0.707 * (3.5em - 100%) + 100%), calc(-0.707 * 100%)) rotate(45deg);
    transform-origin: 0 0;
 }
 .saudacao p {
