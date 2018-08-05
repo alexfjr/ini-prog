@@ -163,7 +163,14 @@ body {
    margin: 2em auto;
    display: block;
    text-align: center;
+   transition: .5s;
+   text-decoration: none;
 } 
+.botao-index:hover {
+   box-shadow: 0 0 1em #FA9;
+   color: white;
+   background-color: #C54974;
+}
 .secao-inicio {
    padding: 2em;
 } 
