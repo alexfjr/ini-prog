@@ -26,6 +26,9 @@
    float: left;
    margin-left: 0;
 }
+.citacao-bio {
+   transition: box-shadow 1s, transform 1s;
+}
 .container > p::first-letter {
    font-size: 200%;
    font-weight: bold;
