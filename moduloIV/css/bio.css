@@ -13,6 +13,7 @@
 .citacao-bio:focus,
 .citacao-bio:hover {
    box-shadow: 0 0 0 99999px rgba(0, 0, 0, .8);
+   transition-delay: 0s, 1s;
 }
 .citacao-bio:nth-of-type(odd):focus,
 .citacao-bio:nth-of-type(odd):hover {
@@ -28,6 +29,7 @@
 }
 .citacao-bio {
    transition: box-shadow 1s, transform 1s;
+   transition-delay: 1s, 0s;
 }
 .container > p::first-letter {
    font-size: 200%;
