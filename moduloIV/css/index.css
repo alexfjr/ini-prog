@@ -5,6 +5,7 @@ html, body {
 body {
    perspective: 6px;
    perspective-origin: 50% 160px;
+   display: block;
 }
 .titulo-principal {
    position: relative;
@@ -220,23 +221,32 @@ body {
       transparent);
    background-size: 20px 20px;
    background-attachment: fixed;
+
 } 
 .trabalhos h2 {
    color: #FFF;
 } 
 .trabalhos ul {
-   overflow: hidden;
-   border: .5em solid black;
+   display: flex;
 } 
 .trabalhos li {
-   float: left;
-   transform: rotate(deg);
-   width: 33.333%;
+   flex: auto;
+   border: .5em solid black;
 } 
 .trabalhos img {
    width: 100%;
    display: block;
 } 
+.trabalhos li:first-child {
+   order: 2;
+   transform: scale(1.2);
+}
+.trabalhos li:nth-child(2) {
+   order: 1;
+}
+.trabalhos li:nth-child(3) {
+   order: 3;
+}
 .blog {
    position: relative;
    background-color: #999;

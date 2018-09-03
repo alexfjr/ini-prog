@@ -5,6 +5,8 @@ body {
    font-family: "Crimson Text", "Times New Roman", serif;
    background-color: #F2FFFC;
    line-height: 1.5;
+   display: flex;
+   flex-wrap: wrap;
 } 
 h1,
 h2,
@@ -28,9 +30,8 @@ h1 {
    clear: both;
 } 
 main {
-   width: calc(100% - .9 * 300px);
-   float: left;
    padding-bottom: 4rem;
+   flex-grow: 1;
 } 
 main a {
    color: #851944;
@@ -117,14 +118,14 @@ em {
 .minha-foto,
 .navegacao-site {
    border-left: .5rem solid black;
-   border-bottom: .5rem solid black;
    box-sizing: border-box;
 } 
+.minha-foto {
+   border-bottom: .5rem solid black;
+}
 .navegacao-site {
    width: calc(.9 * 300px);
-   float: right;
-   position: relative;
-   top: 300px;
+   padding-top: calc(300px + 1em);
 } 
 .icones-redes-sociais a {
    position:relative;
